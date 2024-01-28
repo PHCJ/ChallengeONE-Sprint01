@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+:root{
+    --cor-dark-blue-300: #0A3871;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+    overflow: hidden;
+}
+main{
+    display: flex;
+    padding: 40px;
+    height: 95vh;
+}
+.entradas{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.img-logo{
+    height: 48px;
+    width: 120px;   
+}
+.content-entrada{
+    width: 80%;
+    height: 85%;
+    margin: auto;
+}
+#lbl-input-text{
+    font-size: 2rem;
+}
+#entrada-texto{
+    height: 75%;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid var(--cor-dark-blue-300);
+    border-radius: 24px;
+    font-size: 2rem;
+    color: var(--cor-dark-blue-300);
+    margin-top: 1.6%;
+    box-shadow: 0px 10px 15px -10px var(--cor-dark-blue-300);
+    resize: none;
+}
+.lbl-alerta img{
+    width: 16px;
+}
+.lbl-alerta{
+    display: inline-flex;
+    align-items: center;
+    margin: 1.6% 0;
+    font-size: 0.75rem;
+    color: #495057;
+    opacity: 80%;
+    gap: 8px;
+}
+.btns-acao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.btn-encoder{
+    width: 328px;
+    height: 67px;
+    background-color: var(--cor-dark-blue-300);
+    color: #FFFFFF;
+    border-radius: 24px;
+    padding: 24px;
+}
+.btn-decoder{
+    width: 328px;
+    height: 67px;
+    background-color: #D8DFE8;
+    color: var(--cor-dark-blue-300);
+    border: 1px solid var(--cor-dark-blue-300);
+    border-radius: 24px;
+    padding: 24px;
+}
+.saidas{
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    justify-content: center;
+    align-items: center;
+}
+.img-principal{
+    width: 70%;
+}
+.content-saida{
+   text-align: center;
+   width: 70%;
+   margin-top: 32px;
+}
+.content-saida p:first-of-type{
+    font-weight: 700;
+    color: #343A40;
+    font-size: 1.5rem;
+    line-height: 28.8px;
+    margin-bottom: 16px;
+}
+.content-saida p:last-of-type{
+    margin: auto;
+    line-height: 24px;
+    font-size: 1rem;
+    color: #495057;
+}
+footer{
+    display: flex;
+    height: 5vh;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    border-top: 1px solid #0A3871;
+    color: var(--cor-dark-blue-300);
+}

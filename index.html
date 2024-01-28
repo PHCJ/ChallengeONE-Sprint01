@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" type="image/svg+xml" href="assets/Logo.svg">
+    <title>Decodificador</title>
+</head>
+<body>
+    <main>
+
+        <section class="entradas">
+            <img src="assets/Logo.svg" class="img-logo" alt="logo da alura - descrição: uma letra 'a' em azul escuro">
+            <div class="content-entrada">
+                <label for="entrada-texto" id="lbl-input-text">Digite seu texto:</label>
+                <textarea id="entrada-texto"></textarea>
+                <div class="lbl-alerta">
+                    <img src="assets/bi_exclamation-circle-fill.svg" class="img-alerta" alt="Ponto de exclamação" >
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="btns-acao">
+                    <input type="button" class="btn-encoder" onclick="encoder()" value="Criptografar">
+                    <input type="button" class="btn-decoder" onclick="decoder()" value="Descriptografar">
+                </div>
+            </div>
+        </section>
+
+        <section class="saidas">
+            <img src="assets/High quality products 1 1.png" class="img-principal" alt="Ilustração de um personagem segurando uma lupa para examinar um diamante.">
+            <div class="content-saida">
+                <span></span>
+                <p >Nenhuma mensagem encontrada</p>
+                <p >Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/phcj/" target="_blank">LinkedIn</a>
+        <p>Desenvolvido por Paulo H. C. Jesus</p>
+        <a href="https://github.com/PHCJ/" target="_blank">GitHub</a>
+    </footer>
+</body>
+</html>
